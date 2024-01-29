@@ -1,3 +1,11 @@
+@font-face {
+    font-family: canopee;
+    src: url("./canopee.woff2");
+}
+@font-face {
+    font-family: domain;
+    src: url("./domain.woff2");
+}
 *{
     margin: 0;
     padding: 0;
@@ -33,7 +41,7 @@ html , body{
     font-weight: 200;
     color: rgba(0, 0, 0, 0.699);
     text-transform:capitalize;
-    font-family: "domain";
+    font-family: domain;
     letter-spacing: -1px;
     cursor: pointer;
 }
@@ -76,7 +84,7 @@ html , body{
 }
 .elem1 h1{
     font-size: 20px;
-    font-family: "canopee";
+    font-family: canopee;
     margin-top: 13px;
     color: rgba(0, 0, 0, 0.822);
 }
@@ -90,7 +98,7 @@ html , body{
     font-size: 13px;
     font-weight: 600;
     color: rgba(0, 0, 0, 0.699);
-    font-family: "domain";
+    font-family: domain;
     margin-top: 10px;
     line-height: 22px;
     width: 380px;
@@ -106,13 +114,13 @@ html , body{
     font-size: 65px;
     font-weight: 400;
     letter-spacing: -4px;
-    font-family: "canopee";
+    font-family: canopee;
     margin-top: 20px;
     color: rgba(0, 0, 0, 0.822);
 }
 .elem2 h2{
     font-size: 35px;
-    font-family: "domain";
+    font-family: domain;
     font-weight: 100;
     letter-spacing: -2px;
     color: rgba(0, 0, 0, 0.815);
@@ -125,7 +133,7 @@ html , body{
 }
 .elem2 h6{
     font-size: 15px;
-    font-family: "domain";
+    font-family: domain;
     font-weight: 200;
     margin-top: 40px;
     letter-spacing: -0.1px;
@@ -152,7 +160,7 @@ html , body{
 }
 .elem3 h1{
     font-size: 20px;
-    font-family: "canopee";
+    font-family: canopee;
     margin-top: 13px;
     color: rgba(0, 0, 0, 0.822);
 }
@@ -166,7 +174,7 @@ html , body{
     font-size: 13px;
     font-weight: 600;
     color: rgba(0, 0, 0, 0.699);
-    font-family: "domain";
+    font-family: domain;
     margin-top: 10px;
     line-height: 22px;
     width: 380px;
@@ -189,7 +197,7 @@ html , body{
 .mir .heading h1{
     color: #C4BCB3;
     font-size: 420px;
-    font-family: "canopee";
+    font-family: canopee;
     letter-spacing: 5px;
 }
 .page2{
@@ -207,7 +215,7 @@ html , body{
 }
 .box1 h1{
     font-size: 80px;
-    font-family: "canopee";
+    font-family: canopee;
     font-weight: 700;
     text-align: center;
     color: #1B1B19;
@@ -238,7 +246,7 @@ html , body{
     font-size: 90px;
     width: 45px;
     height: 90px;
-    font-family: "canopee";
+    font-family: canopee;
     text-align: center;
 }
 .para h3{
@@ -276,7 +284,7 @@ html , body{
 }
 .box2 h1{
     font-size: 100px;
-    font-family: "canopee";
+    font-family: canopee;
     font-weight: 700;
     text-align: left;
     color: #1B1B19;
@@ -304,7 +312,7 @@ html , body{
 .page3 .blk1 h1{
     font-size: 350px;
     color: #C4BCB3;
-    font-family: "canopee";
+    font-family: canopee;
 }
 .page3 .blk2{
     height: 70%;
@@ -342,7 +350,7 @@ html , body{
     border-right: 1px solid rgba(0, 0, 0,0.267) ;
 }
 .l1 h1{
-    font-family: "canopee";
+    font-family: canopee;
     font-size: 60px;
     letter-spacing: -1px;
     color: #1B1B19;
@@ -350,7 +358,7 @@ html , body{
 }
 .l1 h3{
     font-size: 40px;
-    font-family: "domain";
+    font-family: domain;
     font-weight: lighter;
     color: #000000c0;
     line-height: 35px;
@@ -363,7 +371,7 @@ html , body{
 .l1 h6{
     margin-top: 25px;
     font-size: 16px;
-    font-family: "domain";
+    font-family: domain;
     font-weight: 100;
     color: #000000c0;
 }
@@ -389,11 +397,11 @@ html , body{
 }
 .l2 h1{
     margin: 10px 0;
-    font-family: "canopee";
+    font-family: canopee;
     color: #1B1B19;
 }
 .l2 p{
-    font-family: "domain";
+    font-family: domain;
     font-size: 17px;
     letter-spacing: -1px;
     color: #000000c0;;
@@ -421,7 +429,7 @@ html , body{
     font-weight: 300;
     letter-spacing: -5px;
     color: #1B1B19;
-    font-family: "canopee";
+    font-family: canopee;
     text-decoration:1px line-through #1B1B19;
 }
 #del{
@@ -443,7 +451,7 @@ html , body{
     height: 90px;
     text-align: center;
     font-size: 90px;
-    font-family: "canopee";
+    font-family: canopee;
     background: #1b1b19ea;
     color: #C4BCB3;
     padding: 0 10px;
@@ -452,20 +460,20 @@ html , body{
     font-size: 25px;
     font-weight: 200;
     color: #1b1b19c0;
-    font-family: "domain";
+    font-family: domain;
 }
 #p2b{
     font-size: 25px;
     font-weight: 200;
     color: #1b1b19c0;
-    font-family: "domain";
+    font-family: domain;
     margin-top: -15px;
 }
 .right .p2{
     font-size: 25px;
     font-weight: 200;
     color: #1b1b19c0;
-    font-family: "domain";
+    font-family: domain;
     margin-top: 60px;
     padding-right: 1vw;
 }
@@ -484,7 +492,7 @@ html , body{
     background-color: #C4BCB3;
     border: 1px solid #1b1b1969;
     font-size: 70px;
-    font-family: "canopee";
+    font-family: canopee;
     letter-spacing: -2px;
     color: #1B1B19;
     cursor: pointer;
@@ -522,14 +530,14 @@ html , body{
 .ex .exl h2{
     font-size: 25px;
     letter-spacing: -2px;
-    font-family: "domain";
+    font-family: domain;
     font-weight: 200;
     color: #1b1b19b0;
     text-align: center;
 }
 .ex .exl h1{
     font-size: 60px;
-    font-family: "canopee";
+    font-family: canopee;
     font-weight: 700;
     text-align: center;
     color: #1B1B19;
@@ -540,7 +548,7 @@ html , body{
 }
 .ex .exr h1{
     font-size: 130px;
-    font-family: "canopee";
+    font-family: canopee;
     color: #1B1B19;
 }
 .container{
@@ -582,7 +590,7 @@ html , body{
     font-size: 400px;
     font-weight: 300;
     font-stretch: extra-expanded;
-    font-family: "canopee";
+    font-family: canopee;
     color: #1B1B19;
 }
 .cont-leftbottom{
@@ -592,7 +600,7 @@ html , body{
 }
 .cont-leftbottom h1{
     font-size: 370px;
-    font-family: "canopee";
+    font-family: canopee;
     font-weight: 400;
     color: #1B1B19;
     /* text-align: center; */
@@ -639,7 +647,7 @@ html , body{
 }
 .top .tright h1{
     font-size: 340px;
-    font-family: "canopee";
+    font-family: canopee;
     font-weight: 500;
     color: #1B1B19;
     letter-spacing: -1px;
@@ -660,7 +668,7 @@ html , body{
 }
 .bleft h1{
     font-size: 340px;
-    font-family: "canopee";
+    font-family: canopee;
     font-weight: 500;
     color: #C4BCB3;
     letter-spacing: -1px;
@@ -675,7 +683,7 @@ html , body{
     font-weight: 300;
     letter-spacing: -1px;
     line-height: 35px;
-    font-family: "domain";
+    font-family: domain;
     color: #1B1B19;
 }
 .bright a{
@@ -684,7 +692,7 @@ html , body{
 }
 .bright h2{
     font-size: 90px;
-    font-family: "canopee";
+    font-family: canopee;
     font-weight: 700;
     color: #1B1B19;
 }
@@ -717,7 +725,7 @@ html , body{
 }
 .scroller h1{
     font-size: 70px;
-    font-family: "domain";
+    font-family: domain;
     font-weight: 400;
     color: #1B1B19;
     letter-spacing: -7px;
@@ -729,7 +737,7 @@ html , body{
     background-color: #1b1b19e5;
     color: #C4BCB3;
     padding: 0 10px;
-    font-family: "canopee";
+    font-family: canopee;
     letter-spacing: 0;
     margin-left: 20px;
 }
@@ -758,7 +766,7 @@ html , body{
 }
 .fleft h6{
     font-size: 23px;
-    font-family: "canopee";
+    font-family: canopee;
     font-weight: 200;
     color: #1b1b19bb;
 }
@@ -774,7 +782,7 @@ html , body{
 .fleft a{
     text-decoration: none;
     font-size: 20px;
-    font-family: "domain";
+    font-family: domain;
     font-weight: 200;
     color: #1b1b19bb;
     letter-spacing: -1px;
@@ -787,7 +795,7 @@ html , body{
 .fright a{
     text-decoration: none;
     color: #1b1b19bb;
-    font-family: "canopee";
+    font-family: canopee;
     font-size: 20px;
     font-weight: 400;
 }
